@@ -4,7 +4,7 @@
 ##### for DB, I am using *Neon Postgres* connection string
 ##### for build, using *Gradle*
 
-### Dependencies:
+#### Dependencies:
 
 ```
 implementation("org.springframework.boot:spring-boot-starter-data-jpa")
