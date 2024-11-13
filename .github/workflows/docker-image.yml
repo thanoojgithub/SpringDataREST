@@ -32,4 +32,4 @@ jobs:
     - name: Get directory
       run: ls
     - name: Build the Docker image
-      run: docker build -t thanoojdocker/springdatarest --file Dockerfile --tag springdatarest:$(date +%s)
+      run: docker build -t thanoojdocker/springdatarest .
