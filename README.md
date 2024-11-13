@@ -11,20 +11,20 @@ implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 implementation("org.springframework.boot:spring-boot-starter-data-rest")
 ```
 
-### Build : 
+#### Build : 
 ```
 .\gradlew clean build 
 ```
 
-### Run:
+#### Run:
 ```
 .\gradlew bootRun
 ```
 
 
-### APIs to Test:
+#### APIs to Test:
 
-#### GET APIs:
+##### GET APIs:
 ```
 http://localhost:8080/api/customers/2
 http://localhost:8080/api/customers
