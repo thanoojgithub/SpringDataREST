@@ -18,7 +18,7 @@ d-----        11/14/2024   1:01 AM                src
 ```
 
 ```
-PS D:\codebase\code\SpringDataREST> gradle clean build
+PS D:\codebase\code\SpringDataREST> gradlew clean build
 Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 
 BUILD SUCCESSFUL in 4s
@@ -47,7 +47,7 @@ d-----        11/14/2024   1:01 AM                src
 ```
 
 ```
-PS D:\codebase\code\SpringDataREST> gradle bootRun
+PS D:\codebase\code\SpringDataREST> gradlew bootRun
 
 > Task :bootRun
 
