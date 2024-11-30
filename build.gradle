@@ -31,10 +31,6 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-bootRun {
-    addResources = true
-}
-
 bootJar {
     mainClassName = 'com.spring.springdatarest.SpringdatarestApplication'
 }
